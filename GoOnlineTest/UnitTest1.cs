@@ -78,11 +78,12 @@ namespace GoOnlineTest
         }
 
         [TestMethod]
-        public void HomeDummy()
+        public void TestDetailsView()
         {
-            GoOnline.Controllers.HomeController obj = new GoOnline.Controllers.HomeController();
-            ViewResult result = obj.Dummy() as ViewResult;
-            Assert.IsNotNull(result);
+            var controller = new GoOnline.Controllers.HomeController();
+            var result = controller.Details(2) as ViewResult;
+            Assert.AreEqual("Details", result.ViewName);
+
         }
     }
 }

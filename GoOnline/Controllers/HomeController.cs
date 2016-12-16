@@ -27,11 +27,10 @@ namespace GoOnline.Controllers
             return View();
         }
 
-        public ActionResult Dummy()
+        public ActionResult Details(int Id)
         {
-            ViewBag.Message = "Hope it works";
 
-            return View();
+            return View("Account");
         }
     }
 }
