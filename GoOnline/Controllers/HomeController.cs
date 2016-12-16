@@ -26,5 +26,12 @@ namespace GoOnline.Controllers
 
             return View();
         }
+
+        public ActionResult Dummy()
+        {
+            ViewBag.Message = "Hope it works";
+
+            return View();
+        }
     }
 }
