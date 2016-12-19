@@ -30,7 +30,8 @@ namespace GoOnline.Controllers
         public ActionResult Details(int Id)
         {
 
-            return View("Account");
+            return View("Details");
+            //Something Went Wrong
         }
     }
 }
