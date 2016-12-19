@@ -432,6 +432,7 @@ namespace GoOnline.Controllers
             get
             {
                 return HttpContext.GetOwinContext().Authentication;
+                //Adding Check in comment
             }
         }
 
