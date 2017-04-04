@@ -9,6 +9,7 @@ namespace GoOnline
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
+            //Adding Comment
         }
     }
 }
